@@ -13,6 +13,10 @@
 		ACADB7502499D5180049D5D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACADB74F2499D5180049D5D1 /* Assets.xcassets */; };
 		ACADB7532499D5180049D5D1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACADB7522499D5180049D5D1 /* Preview Assets.xcassets */; };
 		ACADB7562499D5180049D5D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACADB7542499D5180049D5D1 /* LaunchScreen.storyboard */; };
+		ACADB75E2499DCA70049D5D1 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACADB75D2499DCA70049D5D1 /* SecondView.swift */; };
+		ACADB7672499E8330049D5D1 /* TabOneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACADB7662499E8330049D5D1 /* TabOneView.swift */; };
+		ACADB7692499E8430049D5D1 /* TabTwoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACADB7682499E8430049D5D1 /* TabTwoView.swift */; };
+		ACADB76B2499EB9C0049D5D1 /* TabViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACADB76A2499EB9C0049D5D1 /* TabViews.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		ACADB7522499D5180049D5D1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		ACADB7552499D5180049D5D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ACADB7572499D5180049D5D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACADB75D2499DCA70049D5D1 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
+		ACADB7662499E8330049D5D1 /* TabOneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabOneView.swift; sourceTree = "<group>"; };
+		ACADB7682499E8430049D5D1 /* TabTwoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabTwoView.swift; sourceTree = "<group>"; };
+		ACADB76A2499EB9C0049D5D1 /* TabViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViews.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,7 @@
 		ACADB7482499D5160049D5D1 /* SwiftUI Practice */ = {
 			isa = PBXGroup;
 			children = (
+				ACADB7612499E8090049D5D1 /* tabViews */,
 				ACADB7492499D5160049D5D1 /* AppDelegate.swift */,
 				ACADB74B2499D5160049D5D1 /* SceneDelegate.swift */,
 				ACADB74D2499D5160049D5D1 /* ContentView.swift */,
@@ -63,6 +72,7 @@
 				ACADB7542499D5180049D5D1 /* LaunchScreen.storyboard */,
 				ACADB7572499D5180049D5D1 /* Info.plist */,
 				ACADB7512499D5180049D5D1 /* Preview Content */,
+				ACADB75D2499DCA70049D5D1 /* SecondView.swift */,
 			);
 			path = "SwiftUI Practice";
 			sourceTree = "<group>";
@@ -73,6 +83,16 @@
 				ACADB7522499D5180049D5D1 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ACADB7612499E8090049D5D1 /* tabViews */ = {
+			isa = PBXGroup;
+			children = (
+				ACADB7662499E8330049D5D1 /* TabOneView.swift */,
+				ACADB7682499E8430049D5D1 /* TabTwoView.swift */,
+				ACADB76A2499EB9C0049D5D1 /* TabViews.swift */,
+			);
+			path = tabViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,8 +166,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACADB7672499E8330049D5D1 /* TabOneView.swift in Sources */,
 				ACADB74A2499D5160049D5D1 /* AppDelegate.swift in Sources */,
 				ACADB74C2499D5160049D5D1 /* SceneDelegate.swift in Sources */,
+				ACADB75E2499DCA70049D5D1 /* SecondView.swift in Sources */,
+				ACADB7692499E8430049D5D1 /* TabTwoView.swift in Sources */,
+				ACADB76B2499EB9C0049D5D1 /* TabViews.swift in Sources */,
 				ACADB74E2499D5160049D5D1 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
