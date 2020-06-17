@@ -58,7 +58,7 @@ struct ContentView: View {
                 }
         
                 VStack {
-                    NavigationLink(destination: SecondView(states: $states)) {
+                    NavigationLink(destination: ListsView(states: $states)) {
                         Text("To List View")
                     }.frame(height: 50)
                     NavigationLink(destination: TabViews()) {

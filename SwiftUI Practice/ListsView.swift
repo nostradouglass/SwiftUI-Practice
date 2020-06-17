@@ -8,7 +8,7 @@
 
 import SwiftUI
 
-struct SecondView: View {
+struct ListsView: View {
     
     @Binding  var states: [String]
     
@@ -26,6 +26,6 @@ struct SecondView: View {
 
 struct SecondView_Previews: PreviewProvider {
     static var previews: some View {
-        SecondView(states: Binding.constant(["OK"]))
+        ListsView(states: Binding.constant(["OK"]))
     }
 }
