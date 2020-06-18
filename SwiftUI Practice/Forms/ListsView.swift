@@ -17,9 +17,9 @@ struct ListsView: View {
         List {
             ForEach(states, id: \.self) { state in
                 Text(state)
+                
             }
-        }.navigationBarTitle("Second View")
-        
+        }.navigationBarTitle("List View")
         
     }
 }
